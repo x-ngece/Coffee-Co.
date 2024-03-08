@@ -19,9 +19,42 @@ h2 {
 /* Navbar styles */
 nav {
   margin-bottom: 20px;
-  background-color: #E5A530; /* Add black background color to the top navigation */
+  background-color: #525641; /* Add black background color to the top navigation */
   overflow: hidden; /* Clear floats */
 }
+
+/* products.css */
+
+/* Navbar image styles */
+nav img {
+  width: 100px; /* Adjust the width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+  display: inline-block; /* Align the logo and links horizontally */
+  vertical-align: middle; /* Vertically align the logo */
+}
+
+/* Navbar list styles */
+nav ul {
+  display: inline-block; /* Align the links horizontally */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar list item styles */
+nav ul li {
+  display: inline; /* Display the list items inline */
+  margin-right: 20px; /* Add some spacing between the links */
+}
+
+/* Navbar link styles */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
 
 nav a {
   float: left;
